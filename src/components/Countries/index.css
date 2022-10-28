@@ -1,0 +1,47 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #161624;
+  min-height: 100vh;
+  width: 100vw;
+}
+.main-heading {
+  color: #f8fafc;
+  font-size: 28px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.ul-container-countries {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0px;
+  overflow-y: auto;
+  height: 45vh;
+  width: 100%;
+  background-color: #1f1f2f;
+  border-radius: 8px;
+  padding: 10px;
+}
+.ul-container-visited {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.main-heading-no {
+  color: #f8fafc;
+  font-size: 28px;
+  font-weight: 800;
+  margin-left: 500px;
+  font-family: 'Roboto';
+}

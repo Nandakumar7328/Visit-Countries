@@ -1,0 +1,30 @@
+.flag-image {
+  width: 250px;
+}
+.li-container-visited {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f2f;
+  margin: 10px;
+}
+.name-button-visited {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  align-items: center;
+}
+.btn-remove {
+  background-color: transparent;
+  border: #ffffff solid 1px;
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+}
+.name-visited {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
